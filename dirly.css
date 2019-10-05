@@ -1,0 +1,773 @@
+/* ----------------------------------
+
+NAME: DIRLY.CSS
+AUTHOR: BRANT COURT
+VERSION: 1.20
+
+1. Template Specific
+2. Fonts
+3. Colours
+4. Typography
+5. Background Colour
+6. Buttons
+7. Social Icons
+8. Colour Filters
+9. About
+10. Pricing Table
+11. Blog
+12. Hero
+13. Contact
+14. Footer
+15. Swiper.JS
+16. Color Picker
+
+_________________________$$$$$$$________________
+________________________$$$$$$$$$$______________
+________________________$$$$$$$$$$$_____________
+_________________________$$$$$$$$$$$$$$_________
+__________________________$$$$$$$$$$$___________
+_____________________________$$$$$$$$$$$$$______
+___________________________$$$$$$$$$$___________
+_________________________$$$$$$$$$$$$$$$________
+________________$$$______$$$$$$$$$$$$$$_________
+______________$$$$$$$$_____$$$$$$__$$$$$________
+_____________$$$$$$$$$$_____$$$$____$$$$$_______
+___________$$$$$$_$$$$$$$$__$$$$______$$$$______
+__________$$$$$_____$$$$$$$$_$$$$_______$$$_____
+________$$$$$_________$$$$$$$$$$$$_______$$$____
+_______$$$_____________$$$$$$$$$$$________$$$___
+_____$$$________________$$$$$$$$$$________$$$$$$
+__$$$$$$__________________$$$$$$$_______________
+
+
+-------------------------------------*/
+
+
+/* ----------------------------------
+-------------------------------------
+1. TEMPLATE SPECIFIC
+-------------------------------------
+-------------------------------------*/
+.center-col {
+    float: none;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.margin-top-1 {
+    margin-top: 1%;
+}
+
+.margin-top-2 {
+    margin-top: 2%;
+}
+
+.margin-top-5 {
+    margin-top: 5%;
+}
+
+border-bottom-black {
+    border-bottom: 1px solid black;
+}
+
+.center { margin: 0 auto; width: 400px; }
+
+
+/* ----------------------------------
+-------------------------------------
+2. FONTS
+-------------------------------------
+-------------------------------------*/
+
+/* ----------------------------------
+-------------------------------------
+3. COLOURS
+-------------------------------------
+-------------------------------------*/
+
+.cool-blue {
+    color: #0972ba;
+}
+
+/* ----------------------------------
+-------------------------------------
+4. TYPOGRAPHY 
+-------------------------------------
+-------------------------------------*/
+
+/* font family */
+.alt-font {
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+}
+
+.main-font {
+    font-family: ;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 25px;
+    padding: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 70px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 60px;
+}
+
+h3 {
+    font-size: 48px;
+    line-height: 54px;
+}
+
+h4 {
+    font-size: 40px;
+    line-height: 46px;
+}
+
+h5 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+h6 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+/* text size */
+.text-small {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.text-medium {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.text-large {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.text-extra-large {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+/* text color */
+.text-white {
+    color: #FFF;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-extra-dark-gray {
+    color: #232323;
+}
+
+.text-dark-gray {
+    color: #626262;
+}
+
+.text-extra-medium-gray {
+    color: #757575;
+}
+
+.text-medium-gray {
+    color: #939393;
+}
+
+.text-extra-light-gray {
+    color: #b7b7b7;
+}
+
+.text-light-gray {
+    color: #d6d5d5;
+}
+
+.text-very-light-gray {
+    color: #ededed;
+}
+
+.text-red {
+    color: #a10609;
+}
+
+.text-green {
+    color: #027d1f;
+}
+
+.text-blue {
+    color: #007bff;
+}
+
+/* ----------------------------------
+-------------------------------------
+5. BACKGROUND COLOUR 
+-------------------------------------
+-------------------------------------*/
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-blue {
+    background-color: #007bff;
+}
+
+.bg-extra-dark-gray {
+    background-color: #1c1c1c;
+}
+
+.bg-dark-gray {
+    background-color: #232323;
+}
+
+.bg-extra-medium-gray {
+    background-color: #939393;
+}
+
+.bg-medium-gray {
+    background-color: #dbdbdb;
+}
+
+.bg-extra-light-gray {
+    background-color: #e0e0e0;
+}
+
+.bg-medium-light-gray {
+    background-color: #ededed;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-very-light-gray {
+    background-color: #fafafa;
+}
+
+.bg-transparent-white {
+    background-color: rgba(255, 255, 255, 0.3);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 37%, rgba(255, 255, 255, 1) 96%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(37%, rgba(255, 255, 255, 0)), color-stop(96%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 37%, rgba(255, 255, 255, 1) 96%, rgba(255, 255, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 37%, rgba(255, 255, 255, 1) 96%, rgba(255, 255, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 37%, rgba(255, 255, 255, 1) 96%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 37%, rgba(255, 255, 255, 1) 96%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+}
+
+.bg-transparent-black {
+    background-color: rgba(0, 0, 0, 0);
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 1) 96%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(37%, rgba(0, 0, 0, 0)), color-stop(96%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 1) 96%, rgba(0, 0, 0, 1) 100%);
+    background: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 1) 96%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 1) 96%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 1) 96%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=1);
+}
+
+
+/* Parallax */
+.parallax {
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ----------------------------------
+-------------------------------------
+6. BUTTONS 
+-------------------------------------
+-------------------------------------*/
+
+.btn {
+    display: inline-block;
+    border: 2px solid transparent;
+    letter-spacing: .5px;
+    line-height: inherit;
+    border-radius: 0;
+    text-transform: uppercase;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+/* button size */
+.btn.btn-very-small {
+    font-size: 9px;
+    padding: 1px 17px;
+    line-height: 22px;
+}
+
+.btn.btn-small {
+    font-size: 11px;
+    padding: 4px 24px;
+}
+
+.btn.btn-medium {
+    font-size: 12px;
+    padding: 6px 25px 5px;
+}
+
+.btn.btn-large {
+    font-size: 13px;
+    padding: 9px 34px;
+    line-height: 25px;
+}
+
+.btn.btn-extra-large {
+    font-size: 15px;
+    padding: 12px 40px 13px;
+    line-height: 25px;
+}
+
+/* button background */
+.btn.btn-white {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: #232323;
+}
+
+.btn.btn-white:hover,
+.btn.btn-white:focus {
+    background: transparent;
+    color: #fff;
+}
+
+.btn.btn-black {
+    background: #000000;
+    border-color: #000000;
+    color: #fff;
+}
+
+.btn.btn-black:hover,
+.btn.btn-black:focus {
+    background: transparent;
+    color: #000;
+}
+
+.btn.btn-dark-gray {
+    background: #232323;
+    border-color: #232323;
+    color: #fff;
+}
+
+.btn.btn-dark-gray:hover,
+.btn.btn-dark-gray:focus {
+    background: transparent;
+    color: white;
+}
+
+.btn.btn-light-gray {
+    background: #dbdbdb;
+    border-color: #dbdbdb;
+    color: #232323;
+}
+
+.btn.btn-light-gray:hover,
+.btn.btn-light-gray:focus {
+    background: transparent;
+    border-color: #dbdbdb;
+    color: #dbdbdb;
+}
+
+.btn.btn-red {
+    background: #a10609;
+    border-color: #a10609;
+    color: #ffffff;
+}
+
+.btn.btn-red:hover,
+.btn.btn-red:focus {
+    background: transparent;
+    border-color: #a10609;
+    color: #a10609;
+}
+
+.btn.btn-green {
+    background: #027d1f;
+    border-color: #027d1f;
+    color: #ffffff;
+}
+
+.btn.btn-green:hover,
+.btn.btn-green:focus {
+    background: transparent;
+    border-color: #027d1f;
+    color: #027d1f;
+}
+
+.btn.btn-blue {
+    background: #040185;
+    border-color: #040185;
+    color: #ffffff;
+}
+
+.btn.btn-blue:hover,
+.btn.btn-blue:focus {
+    background: transparent;
+    border-color: #040185;
+    color: #040185;
+}
+
+/* ----------------------------------
+-------------------------------------
+7. SOCIAL ICONS 
+-------------------------------------
+-------------------------------------*/
+.badge.social {
+    background: #ccc;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    margin: 0 5px 20px 0;
+    padding: 0;
+    color: white;
+}
+
+.badge.social-circle {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.badge.social-special {
+    border-radius: 0px;
+}
+
+.badge.social {
+    background: black;
+}
+
+.badge.social.twitter:hover {
+    background: #55acee;
+}
+
+.badge.social.github:hover {
+    background: #C9510C;
+}
+
+.badge.social.youtube:hover {
+    background: #FF3333;
+}
+
+.badge.social.codepen:hover {
+    background: #212121;
+}
+
+.badge.social.facebook:hover {
+    background: #3b5998;
+}
+
+.badge.social.gplus:hover {
+    background: #db4b39;
+}
+
+.badge.social.instagram:hover {
+    background: #FD1D1D;
+}
+
+.badge.social.pinterest:hover {
+    background: #c8232c;
+}
+
+/* ----------------------------------
+-------------------------------------
+8. COLOUR FILTERS
+-------------------------------------
+-------------------------------------*/
+.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.brightness {
+    -webkit-filter: brightness(0.30);
+    filter: brightness(0.30);
+}
+
+.contrast {
+    -webkit-filter: contrast(180%);
+    filter: contrast(180%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.huerotate {
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg);
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.opacity {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
+.saturate {
+    -webkit-filter: saturate(7);
+    filter: saturate(7);
+}
+
+.sepia {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(8px 8px 10px green);
+    filter: drop-shadow(8px 8px 10px green);
+}
+
+/* ----------------------------------
+-------------------------------------
+9. About Section
+-------------------------------------
+-------------------------------------*/
+#about .col-md-4 p {
+    text-align: justify;
+}
+
+/* ----------------------------------
+-------------------------------------
+10. Pricing Table
+-------------------------------------
+-------------------------------------*/
+
+
+/* ----------------------------------
+-------------------------------------
+11. BLOG
+-------------------------------------
+-------------------------------------*/
+
+
+/* ----------------------------------
+-------------------------------------
+12. HERO
+-------------------------------------
+-------------------------------------*/
+
+
+/* ----------------------------------
+-------------------------------------
+13. CONTACT
+-------------------------------------
+-------------------------------------*/
+
+
+
+/* ----------------------------------
+-------------------------------------
+14. FOOTER
+-------------------------------------
+-------------------------------------*/
+
+
+
+/* ----------------------------------
+-------------------------------------
+15. SWIPER.JS
+-------------------------------------
+-------------------------------------*/
+
+.swiper-container {
+    width: 100%;
+    height: 450px;
+}
+
+/* ----------------------------------
+-------------------------------------
+16. COLOR PICKER
+-------------------------------------
+-------------------------------------*/
+#demo-strip {
+    padding: 50px 0;
+    background: #404040;
+    color: #CCC;
+}
+
+#demo-content h2 {
+    margin-bottom: 30px;
+    color: #DFDFDF;
+}
+
+#demo-content a {
+    color: #FFF;
+}
+
+#demo-app {
+    position: relative;
+    height: 320px;
+}
+
+#demo-app table {
+    width: 100%;
+    font-size: 80%;
+}
+
+#demo-app th {
+    font-weight: normal;
+    padding: 0 5px;
+}
+
+#demo-app table input {
+    width: 10em;
+    color: #FFF;
+    border: 1px solid #999;
+    background: #262626;
+    padding: 2px 5px;
+}
+
+#demo-app table input:focus {
+    border-color: #FFF !important;
+    color: #FFF !important;
+}
+
+#demo-app table input.short {
+    width: 3em;
+    text-align: center !important;
+}
+
+#demo-app button {
+    width: 180px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+#demo-app .panel {
+    position: absolute;
+    top: 0;
+    width: 220px;
+}
+
+#demo-app .panel .red {
+    color: #F99;
+}
+
+#demo-app .panel .red input {
+    border-color: #F99;
+    color: #F99;
+}
+
+#demo-app .panel .grn {
+    color: #9F9;
+}
+
+#demo-app .panel .grn input {
+    border-color: #9F9;
+    color: #9F9;
+}
+
+#demo-app .panel .blu {
+    color: #9CF;
+}
+
+#demo-app .panel .blu input {
+    border-color: #9CF;
+    color: #9CF;
+}
+
+#demo-app .panel.bgcolor {
+    left: 0;
+}
+
+#demo-app .panel.bgcolor th {
+    text-align: right;
+}
+
+#demo-app .panel.bgcolor td {
+    text-align: left;
+}
+
+#demo-app .panel.bgcolor table input {
+    text-align: left;
+}
+
+#demo-app .panel.fgcolor {
+    right: 0;
+}
+
+#demo-app .panel.fgcolor th {
+    text-align: left;
+}
+
+#demo-app .panel.fgcolor td {
+    text-align: right;
+}
+
+#demo-app .panel.fgcolor table input {
+    text-align: right;
+}
+
+#demo-app #demo-preview {
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 440px;
+    border: 4px solid #000;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#demo-app #demo-preview strong {
+    font-weight: normal;
+    font-size: xx-large;
+}
+
+#demo-app #demo-links {
+    margin: 40px auto;
+}
